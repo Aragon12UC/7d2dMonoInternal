@@ -15,7 +15,11 @@ namespace ExampleAssembly
             chamsMaterial = new Material(Shader.Find("Hidden/Internal-Colored")) {
                 hideFlags = HideFlags.HideAndDontSave
             };
-
+            
+            /* 
+             * Unity hases the ID of every property name you feed it, 
+             * so we're hashing it once instead of every time we want to use it.
+             */
             _Color = Shader.PropertyToID("_Color");
 
             chamsMaterial.SetInt("_SrcBlend", 5);
@@ -27,6 +31,7 @@ namespace ExampleAssembly
         }
 
         private void Aimbot() {
+            // This aimbot is pasted, if you wrote this let me know and I'll credit you.
             float minDist = 9999f;
 
             Vector2 target = Vector2.zero;
