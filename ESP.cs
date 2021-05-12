@@ -124,12 +124,12 @@ namespace ExampleAssembly {
                         float x = w2s.x - height * 0.3f ;
                         float y = Screen.height - w2sHead.y;
 
-                        if (zombieBox) {
+                        if (playerBox) {
                             ESPUtils.OutlineBox(new Vector2(x - 1f, y - 1f), new Vector2((height / 2f) + 2f, height + 2f), blackCol);
                             ESPUtils.OutlineBox(new Vector2(x, y), new Vector2(height / 2f, height), entityBoxCol);
                             ESPUtils.OutlineBox(new Vector2(x + 1f, y + 1f), new Vector2((height / 2f) - 2f, height - 2f), blackCol);
                         }
-                        else if (zombieCornerBox) {
+                        else if (playerCornerBox) {
                             ESPUtils.CornerBox(new Vector2(w2sHead.x, y), height / 2f, height, 2f, entityBoxCol, true);
                         }
 
