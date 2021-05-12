@@ -23,4 +23,4 @@ Basic mono internal for 7 days to die. Pretty well optimised, with the menu open
 6. Steam name spoofer
 
 # Video
-https://streamable.com/yct7tr
+https://streamable.com/yct7tr (streamable fucked up my video quality, sorry)
